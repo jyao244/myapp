@@ -1,16 +1,27 @@
-# myapp
+# SE750 Assignment1 Tech Demo - Mobile development: Flutter
 
 A new Flutter project.
 
-## Getting Started
+## Install and Initialise Steps
 
-This project is a starting point for a Flutter application.
+flutter version: 1.10.4
 
-A few resources to get you started if this is your first Flutter project:
+1. download code from github
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+2. extract zip file
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. open assignment-01-jyao244 folder in vscode
+
+4. open terminal in vscode
+
+5. in terminal, check flutter version by running > flutter --version
+
+6. in terminal, run > flutter pub get
+
+7. in the top navbar of vscode, click run -> start debugging
+
+8. choose your mobile phone or emulator to run
+
+## Screenshot
+
+
