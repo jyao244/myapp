@@ -121,7 +121,7 @@ class _VideoState extends State<Video> {
                       ),
                       SizedBox(width: 20),
                       Container(
-                        width: 200,
+                        width: 180,
                         height: 30,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
