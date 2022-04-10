@@ -1,6 +1,6 @@
 # SE750 Assignment1 Tech Demo - Mobile development: Flutter
 
-A new Flutter project.
+A new Flutter project. This project enable page jumping, loading data from database, and video playing.
 
 ## Install and Initialise Steps
 
@@ -10,7 +10,7 @@ flutter version: 1.10.4
 
 2. extract zip file
 
-3. open assignment-01-jyao244 folder in vscode
+3. open /assignment-01-jyao244 folder in vscode
 
 4. open terminal in vscode
 
@@ -24,4 +24,15 @@ flutter version: 1.10.4
 
 ## Screenshot
 
-
+![1](https://user-images.githubusercontent.com/68982751/162609195-bc31c3d0-ed32-45a3-a8c5-01b0ce47c43f.jpg)
+home page
+![4](https://user-images.githubusercontent.com/68982751/162609205-d9d81860-1e0e-4697-9e93-1cad48a854a5.jpg)
+click circled button to jump into video page
+![2](https://user-images.githubusercontent.com/68982751/162609256-c8ec85cf-b8e8-41e8-93fa-fe689490cda2.jpg)
+video page
+![5](https://user-images.githubusercontent.com/68982751/162609266-e9bbda44-d4e5-40b8-a960-cd86e2e846b1.jpg)
+click a course to play the video
+![3](https://user-images.githubusercontent.com/68982751/162609293-156802b2-7dd8-4f2b-b207-6076eac86615.jpg)
+video playing
+![6](https://user-images.githubusercontent.com/68982751/162609307-a32b3d29-6004-4fdf-b853-bf64179fa84c.jpg)
+click circled button to back to the home page
