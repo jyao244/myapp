@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Biomolecules",
+        "img": "assets/subject1.png"
+    },
+    {
+        "title": "Cells",
+        "img": "assets/subject2.png"
+    },
+    {
+        "title": "Organ systems",
+        "img": "assets/subject3.png"
+    },
+    {
+        "title": "Physics",
+        "img": "assets/subject4.png"
+    },
+    {
+        "title": "Chemistry",
+        "img": "assets/subject5.png"
+    },
+    {
+        "title": "Psychology",
+        "img": "assets/subject6.png"
+    },
+    {
+        "title": "Behavior",
+        "img": "assets/subject7.png"
+    },
+    {
+        "title": "Sociology",
+        "img": "assets/subject8.png"
+    }
+]

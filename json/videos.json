@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Central dogma - molecular biology",
+        "time": "4 min 22 sec",
+        "picture": "assets/video1.jpg",
+        "video": "assets/video1.mp4"
+    },
+    {
+        "title": "Central dogma - revisited",
+        "time": "6 min 12 sec",
+        "picture": "assets/video2.jpg",
+        "video": "assets/video2.mp4"
+    },
+    {
+        "title": "Formation and cleavage",
+        "time": "7 min 11 sec",
+        "picture": "assets/video3.jpg",
+        "video": "assets/video3.mp4"
+    },
+    {
+        "title": "Histidine, proline, glycine, cysteine",
+        "time": "8 min 18 sec",
+        "picture": "assets/video4.jpg",
+        "video": "assets/video4.mp4"
+    }
+]
