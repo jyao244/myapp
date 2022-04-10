@@ -4,7 +4,6 @@ A new Flutter project. This project enable page jumping, loading data from datab
 
 ## Install and Initialise Steps
 
-flutter version: 1.10.4
 
 1. download code from github
 
