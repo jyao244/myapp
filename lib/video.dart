@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-// import 'package:flutter/cupertino.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-// import 'package:video_player/video_player.dart';
+import 'package:video_player/video_player.dart';
 // import 'package:myapp/home_page.dart';
 import 'colors.dart' as color;
 
@@ -14,7 +14,7 @@ class Video extends StatefulWidget {
 }
 
 class _VideoState extends State<Video> {
-  // VideoPlayerController _controller;
+  VideoPlayerController _controller;
   bool _play=false;
   List videos=[];
 
@@ -166,13 +166,13 @@ class _VideoState extends State<Video> {
                     child: Row(
                       children: [
                         InkWell(
-                          onTap: (){
-                            debugPrint("tapped");
+                          onTap: () {
+                            Navigator.pop(context);
                           },
                           child: Icon(
                             Icons.arrow_back_ios,
                             size: 20,
-                            color: color.AppColor.secondPageIconColor)
+                            color: color.AppColor.secondPageIconColor),
                         ),
                         Expanded(child: Container()),
                         Icon(
@@ -182,7 +182,7 @@ class _VideoState extends State<Video> {
                       ]
                     )
                   ),
-                  // _playVideo(context),
+                  _playVideo(context),
                 ]
               ),
             ),
@@ -216,8 +216,7 @@ class _VideoState extends State<Video> {
                     itemBuilder: (_, int i){
                     return GestureDetector(
                       onTap: (){
-                        // _onTapVideo(i);
-                        debugPrint(i.toString());
+                        _onTapVideo(i);
                         setState(() {
                           if(_play==false){
                             _play=true;
@@ -285,30 +284,28 @@ class _VideoState extends State<Video> {
     );
   }
 
-  // _playVideo(BuildContext context){
-  //   final controller = _controller;
-  //   if(controller!=null&&controller.value.initialized){
-  //     return Container(
-  //       height: 300,
-  //       width: 300,
-  //       child: VideoPlayer(controller)
-  //     );
-  //   }else{
-  //     return Text("Please wait");
-  //   }
-  // }
+  _playVideo(BuildContext context){
+    if(_controller!=null){
+      return Container(
+        height: 300,
+        width: 300,
+        child: VideoPlayer(_controller)
+      );
+    }else{
+      return Text("Please wait");
+    }
+  }
 
-  // _onTapVideo(int i){
-  //   final controller = VideoPlayerController.asset(videos[i]["video"]);
-  //   _controller=controller;
-  //   setState(() {
+  _onTapVideo(int i){
+    _controller = VideoPlayerController.asset(videos[i]["video"]);
+    setState(() {
       
-  //   });
-  //   controller..initialize().then((_){
-  //     controller.play();
-  //       setState(() {
+    });
+    _controller..initialize().then((_){
+      _controller.play();
+        setState(() {
           
-  //       });
-  //   });
-  // }
+        });
+    });
+  }
 }
