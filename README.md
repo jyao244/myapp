@@ -4,6 +4,8 @@ A new Flutter project. This project enable page jumping, loading data from datab
 
 ## Install and Initialise Steps
 
+-flutter version: 1.10.4
+
 
 1. download code from github
 
@@ -21,8 +23,13 @@ A new Flutter project. This project enable page jumping, loading data from datab
 
 8. choose your mobile phone or emulator to run
 
-alternative, if it does not work, you can download backup.zip and extract all the files into a new created flutter project, then run it.
+Alternative, if it does not work, you can download backup.zip and extract all the files into a new created flutter project, then run it.
 by create a new flutter project, run > flutter create myapp
+
+Alternative, you can run > flutter clean
+then run > flutter pub upgrade --major-versions
+
+Or, you can just simply download app-release.apk on your phone, install and run it.
 
 ## Screenshot
 
