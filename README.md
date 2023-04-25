@@ -31,6 +31,8 @@ then run > flutter pub upgrade --major-versions
 
 Or, you can just simply download app-release.apk on your phone, install and run it.
 
+For more infomation on how to use this app, you can watch demo.mp4
+
 ## Screenshot
 
 # home page
